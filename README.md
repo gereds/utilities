@@ -7,7 +7,7 @@ Edit the script and fill in the needed variables, as described there. When you a
 
 ## create_public_private_keys.sh
 You access frequently the remote linux server B from machine A, but you'd prefer to login using private/public keys and forget the password. This script creates the private/public key pairs, install them and creates an alias for you.
-Just download the script to machine A, run it with no parameters and follow the instruction on the screen.
+Just download the script to machine A, run it with no parameters and follow the instructions on the screen.
 
 ## License
 Unlicense
