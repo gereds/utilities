@@ -1,2 +1,2 @@
 # utility
-Small utilities
+Small utilities created to simplify our lifes
