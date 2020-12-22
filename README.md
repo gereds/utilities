@@ -6,8 +6,8 @@ You have a server with https access and you use your self signed certificates. T
 Edit the script and fill in the needed variables, as described there. When you are ready with is, just run the script with no parameters and follow the instructions on the screen.
 
 ## create_public_private_keys.sh
-You access frequently the remote linux server B from machine A, but you'd prefer to login using private/public keys and forget the password. Just download this script to machine A, run it with no parameters and follow the instruction.
-It creates the private/public keys, install them and create an alias for you. You'll love it.
+You access frequently the remote linux server B from machine A, but you'd prefer to login using private/public keys and forget the password. This script creates the private/public key pairs, install them and creates an alias for you.
+Just download the script to machine A, run it with no parameters and follow the instruction on the screen.
 
 ## License
 Unlicense
