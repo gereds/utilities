@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Author: Sandor Gered sandor.gered at protonmail.com
+# Author: Sandor Gered sandor.gered at gmail.com
 # Brief:  Creates a root certificate to become a Certificate Authority
 #         Then creates and sign certificates using your own Certificate Authority
 # Date:   2020-05-30
