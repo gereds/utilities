@@ -8,40 +8,57 @@
 
 ### You have to fill in these parameters to be able to use this script
 ### See below the instructions:
-
 ## path of your root certificate the path must exist, ex:
 ##ca_path="/home/johnny/certs"
-ca_path=""
+if [[ -z ${ca_path} ]]; then
+    ca_path=""
+fi
 
 ## file name of root certificate
 ## if you don't have a root certificate, it's time to create it,
 ## just put a your.name here which and ends it in ".ca", ex:
 ##ca_name="john.doe.ca"
-ca_name=""
+if [[ -z ${ca_name} ]]; then
+    ca_name=""
+fi
 
 ## Your ISO 3166-1 alpha-2 country code, 2 digits
-country=""
+if [[ -z ${country} ]]; then
+    country=""
+fi
 
 ## Your two letter county code
-state=""
+if [[ -z ${state} ]]; then
+    state=""
+fi
 
 ## Your locality
-locality=""
+if [[ -z ${locality} ]]; then
+    locality=""
+fi
 
 ## Your organization name, ex:
 ##organization="My super smart ltd"
-organization=""
+if [[ -z ${organization} ]]; then
+    organization=""
+fi
 
 ## Department, ex:
 ##organization_unit="It Security Dept"
-organization_unit=""
+if [[ -z ${organization_unit} ]]; then
+    organization_unit=""
+fi
 
 ## Your name, ex:
 ##common_name="John Doe"
-common_name=""
+if [[ -z ${common_name} ]]; then
+    common_name=""
+fi
 
 ## Your email:
-email=""
+if [[ -z ${email} ]]; then
+    email=""
+fi
 
 ### No need to change any other thing after this line
 
